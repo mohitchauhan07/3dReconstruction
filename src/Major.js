@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./modules/navbar";
-import Banner from './modules/banner'
+import Banner from './modules/banner';
+import Architecture from './modules/architecture';
 import Application from './modules/application';
 import Approach from "./modules/approach";
-import Architecture from './modules/architecture';
+import Output from './modules/output';
 import Code from './modules/code';
 import FutureScope from "./modules/futureScope";
 import Footer from "./modules/footer";
@@ -14,9 +15,10 @@ const Major = () => {
     <>
       <Navbar />
       <Banner/>
+      <Architecture />
       <Application/>
       <Approach />
-      <Architecture/>
+      <Output/>
       <Code/>
       <FutureScope/>
       <Footer/>

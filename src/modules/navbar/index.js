@@ -20,11 +20,11 @@ const Navbar = () => {
                 </div>
                 <div className={'btnSection'}>     
                     <div class="say_hello">
-                        <button class="hello-btn">Say Ciao!</button>
+                        <button onClick={()=>{alert("Hello Everyone")}} class="hello-btn">Say Ciao!</button>
                     </div>
 
                     <div class="menu">
-                        <img src="images/right-align.svg" alt={"AlignIcon"}/>
+                        <img src="images/right-align.svg" alt={"AlignIcon"} onClick={()=>{alert('Navbar Already Present')}}/>
                     </div>
                 </div>
             </nav>

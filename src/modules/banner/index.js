@@ -16,7 +16,7 @@ End-to-end Deep Learning model predicts each 6-DoF camera pose or coordinate
 MiLoc is very cost ineffective and dramatically reduces cost that we could incur other from a LIDAR setup.In addition, it solves the problem  of inaccurate GPS positioning obtained in an indoor environment . 
                     </p>
                     <div class="say_hello">
-                        <button class="hello-btn">Read More *</button>
+                        <button onClick={(e)=>{window.open('https://www.einfochips.com/blog/understanding-object-localization-with-deep-learning/', '_blank');}} class="hello-btn">Read More *</button>
                     </div>
                 </div>
                 <div class="image">

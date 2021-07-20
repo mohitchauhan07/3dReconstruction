@@ -1,7 +1,7 @@
-import React from 'react'
-import './index.css'
+import React from 'react';
+import './index.css';
 
-const archi = (props) => {
+const archi = () => {
     return (
         <>
         <div className={'navHelper'} id>
@@ -9,10 +9,10 @@ const archi = (props) => {
         </div>
          <div className={"container"}>
             <div className={'archiCard card'}>
-            <h1 className={"heading"}>{"Output"}</h1>
-            <video className={'outputVideo'} autoPlay muted={true} loop>
-                <source src="images/output.mp4" type="video/mp4"/>
-                </video>
+            <h1 className={"heading"}>{"Architecture"}</h1>
+            <div >
+                <img className = "architectureImg" src={'images/architecture.jpeg'} />
+            </div>
             </div>
         </div>
         </>

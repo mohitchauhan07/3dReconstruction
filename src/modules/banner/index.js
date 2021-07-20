@@ -9,12 +9,11 @@ const Banner = (props) => {
         <div id="banner-section-1">
             <div class="banner container">
                 <div class="content">
-                    <h2>3D Positioning System</h2>
-                    <h1>Real Time 3-D Positioning Based On Neural Network </h1>
-                    <p>A novel framework for real-time 3D scene reconstruction 
-                        from a video. Using some neural methods that estimate 
-                        single-view depth maps separately on each key-frame and
-                         fuse them later,
+                    {/* <h2> MILOC</h2> */}
+                    <h1> MiLoc </h1>
+                    <p>MiLoc is Multi-Input image based Global Localization which predicts global pose and difference of poses from two consecutive images
+End-to-end Deep Learning model predicts each 6-DoF camera pose or coordinate 
+MiLoc is very cost ineffective and dramatically reduces cost that we could incur other from a LIDAR setup.In addition, it solves the problem  of inaccurate GPS positioning obtained in an indoor environment . 
                     </p>
                     <div class="say_hello">
                         <button class="hello-btn">Read More *</button>

@@ -11,7 +11,16 @@ const Approach = () => {
           <h1 className={"heading approachHeading"}>{"Technical Approach"}</h1>
           <p className={"para approachPara"}>
             {
-              "Previously we had developed a live segmentation with object detection in our minor project. Now we are extending that to apply one of its applications that is  3D Reconstruction.Our aim is to design and develop a neural architecture which will generate an environment that  maps  3D positions.So it will parse the image or video pixel by pixel to predict and generate its corresponding 3D point in a 3D environment.That will be used to construct the environment.We have also engineered a website which contains our research work,approach,outcomes and future scope of our project.The code was developed in Python.The dataset contains more than 5000 images occupying upto 20 GB.The model was trained on NVIDIA 3060 to train our deep learning model."
+              `We trained a supervised Deep Learning model with more than 18000 images.
+              The models takes 6 images from two consecutive timestamp and predicts the Global 6-DoF camera pose and difference in the poses.
+              For training, the images captured from 3 different cameras and extract corresponding pose from Lego-LOAM.
+              Further the model exported into TensorRT.
+              Indoor Food Court data is collected from OttonomyIO bot.
+              The data is collected from 3 cameras at 10 Hz. 
+              The data is collected from 3 cameras at 10 Hz. The camera is setup in such a way that they cover 360°.
+              Lidar point cloud captured for calculating the poses.
+              To extract the pose for training from Lidar point cloud we used Lego-LOAM.
+              Captured more than 5000 images.`
             }
           </p>
           <figure className={"approachImg1"}>

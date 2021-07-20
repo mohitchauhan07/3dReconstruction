@@ -11,7 +11,7 @@ const archi = () => {
             <div className={'archiCard card'}>
             <h1 className={"heading"}>{"Architecture"}</h1>
             <div >
-                <img className = "architectureImg" src={'images/architecture.jpeg'} />
+                <img className = "architectureImg" src={'images/architecture.jpeg'} alt={'icon'}/>
             </div>
             </div>
         </div>

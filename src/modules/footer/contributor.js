@@ -9,7 +9,7 @@ function Contributor(props) {
       </figure>
       <div className={"contributorDetails"}>
         <div style={{textTransform:'uppercase'}}>{props.name}</div>
-        <a className={'connect'} target={'_blank'} href={props.connectLink}>{'LinkedIn Profile'}</a>
+        <a className={'connect'} href={props.connectLink}  target={'_blank'} rel="noreferrer">{'LinkedIn Profile'}</a>
       </div>
     </div>
   );

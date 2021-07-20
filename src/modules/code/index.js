@@ -19,7 +19,7 @@ const Code=()=>{
               <figure className={"githubImg"}>
                   <img src={'./images/github.png'} alt={'githubIcon'}/>
               </figure>
-              <a href={"https://github.com/mohitchauhan07/majorProjectWebsite.git"} target="_blank"><button className={'btn codeBtn'}>{"Check Code"}</button></a>
+              <a href={"https://github.com/mohitchauhan07/majorProjectWebsite.git"} target="_blank" rel="noreferrer"><button className={'btn codeBtn'}>{"Check Code"}</button></a>
           </div>
           </div>
         </div>

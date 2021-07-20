@@ -1,0 +1,46 @@
+/* .futureScope {
+    padding-top: 100px;
+  } */
+  
+  .futureScopeContainer {
+    height: 1200px;
+    margin: 0 auto;
+    padding: 21px;
+  }
+  
+  .futureScopeCardsContainer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 99%;
+  }
+  
+  .futureScopeHeading {
+    margin: 0 0 21px 7px;
+  }
+  
+  .contentPart {
+    width: 58%;
+    height: 30%;
+    padding:40px
+  }
+  
+  .graphicsPart {
+    width: 40%;
+    height: 30%;
+  }
+
+  .scopeHeading{
+    font-weight: 700;
+  }
+
+  .scopeImg{
+    border-radius: 30px;
+  }
+
+  .scopeContent{
+    margin-top: 20px;
+    font-size:18px;
+    line-height: 36px;
+    word-spacing: 7px;
+    text-align: justify;
+  }

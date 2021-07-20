@@ -1,0 +1,251 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ------------------------------------------------------------------- CSS RESET END */
+
+/* ------------------------------------------------------------------- Custom CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --themeColor: #fee4cf;
+  --borderColor: rgba(0, 0, 0, 0.4);
+  --headingColor: #6d3035;
+  --paraColor: #8c5757;
+  --cardBgColor: rgba(252, 252, 252);
+  --boxShadow:2px 4px 16px rgb(0 0 0 / 27%)
+}
+
+body {
+  background-color: var(--themeColor);
+}
+
+.displayColumn {
+  display: flex;
+  flex-direction: column;
+}
+.displayRow {
+  display: flex;
+}
+.line {
+  border: "1px solid black";
+}
+.heading {
+  font-size: 40px;
+  color: var(--headingColor);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--headingColor);
+}
+.para {
+  font-size: 18px;
+  color: var(--paraColor);
+}
+.btn {
+  border: none;
+  border-radius: 30px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 23px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.container {
+  width: 1680px;
+  margin: 0 auto;
+}
+.card {
+  box-shadow: var(--boxShadow);
+  border-radius: 30px;
+  padding: 20px;
+  background-color: var(--cardBgColor);
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: var(--headingColor);
+}
+input {
+  outline: none;
+}
+/* -------------------------------------------------------------- Default Values End */

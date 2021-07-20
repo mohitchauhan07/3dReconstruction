@@ -1,0 +1,94 @@
+.Footer {
+    background-color:black;
+    color:var(--cardBgColor);
+    margin-top:100px;
+    padding:25px 0;
+}
+
+.footerTitle{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 400;
+    /* text-decoration: underline; */
+}
+
+.footerContainer {
+   display:flex;
+   justify-content:space-between;
+}
+
+.logoContainer {
+    width: 10%;
+    height: 77px;
+}
+
+.linkContainer {
+    width:20%;
+}
+
+.linkContainer ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    padding:20px
+}
+.linkContainer ul li{
+    margin:5px 0;
+}
+.linkContainer a{
+    color:#fff;
+    font-size: 18px;
+}
+
+.linkContainer a:hover{
+    color:var(--headingColor)
+}
+
+.contributorsContainer {
+    width:64%;
+    /* border:2px solid green; */
+} 
+
+.contributors{
+    display:flex;
+    align-items:center;
+    /* border:2px solid red; */
+    padding:20px 0
+}
+
+.contributor{
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+
+.contributorFrame{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+
+.contributorFrame img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+}
+
+.contributorDetails{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 18px;
+    margin-top:10px
+}
+
+.connect{
+    margin-top:10px;
+    color:#fff;
+    text-decoration: underline;
+}
+
+.connect:hover{
+    color:var(--headingColor)
+}

@@ -1,0 +1,60 @@
+.approachCard {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  padding: 40px 100px;
+}
+
+.approachHeading {
+  margin: 15px 0;
+}
+
+.approachPara {
+  margin: 100px 0;
+  width: 60%;
+  line-height: 36px;
+  word-spacing: 7px;
+  text-align: justify;
+}
+
+.approachImg1 {
+  position: absolute;
+  top: 140px;
+  left: 68px;
+  width: 45%;
+  height: 500px;
+  transition: 1s ease;
+  
+}
+
+.approachCard:hover .approachImg1{
+  transform: translateX(-240px);
+  width: 35%;
+}
+
+.approachImg2 {
+  position: absolute;
+  top: 140px;
+  right: 68px;
+  width: 45%;
+  height: 500px;
+  transition: 1s ease;
+  
+  
+}
+.approachImg1>img{
+  border-radius: 20px;
+  border: 2px solid rgba(0,0,0,0.5);
+  
+}
+.approachImg2>img{
+  border-radius: 20px;
+  border: 2px solid rgba(0,0,0,0.5);
+}
+.approachCard:hover .approachImg2{
+  transform: translateX(240px);
+  width: 35%;
+  
+}

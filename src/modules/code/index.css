@@ -1,0 +1,56 @@
+/* .code {
+    padding-top: 100px;
+  } */
+  
+  .codeContainer {
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
+  }
+  
+  .codeHeading {
+    margin: 21px 0 26px 0;
+  }
+  
+  .codeCard1 {
+    width: 50%;
+    height: 380px;
+    position: absolute;
+    top: 7%;
+    left: 23%;
+  }
+  
+  .codeCard2 {
+    width: 50%;
+    height: 380px;
+    position: absolute;
+    top: 14%;
+    left: 28%;
+  }
+  
+  .codeCard3 {
+    width: 50%;
+    height: 380px;
+    position: absolute;
+    top: 21%;
+    left: 33%;
+  }
+
+  .divider{
+      margin:20px 0 78px 0
+  }
+
+  .codeLinkContainer{
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 65px auto;
+  }
+
+  .githubImg{
+      width:66px;
+  }
+
+  .codeBtn{
+      width:205px;
+  }

@@ -1,0 +1,50 @@
+.navContainer{
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 20px auto;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+}
+.navLinks{
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 50px;    
+}
+.navLinks ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks ul li a:hover{
+    color:black
+}
+.btnSection{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 250px;
+}
+.say_hello>button{
+    height: 70px;
+    width: 180px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 0 0 0 50px;
+    cursor: pointer;
+}
+.menu>img{
+    height: 30px;
+    width: 30px;
+}
